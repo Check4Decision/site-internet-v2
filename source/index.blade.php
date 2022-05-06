@@ -6,7 +6,7 @@
     <main class="px-4 py-28">
         <!-- Project description -->
         <section class="grid place-items-center">
-            <h1 class="project-title sm:text-7xl">Check4Decision</h1>
+            <h1 class="project-title sm:text-7xl font-oxygen font-bold">Check4Decision</h1>
             <p class="text-sm text-gray-600 text-center mt-4 leading-loose tracking-wider project-description sm:text-lg">
                 Projet de recherche financé par le CEA-MITIC, qui traite les questions relatives à l'automatisation de la
                 collecte et l'agrégation de données mais aussi de la vérification des faits (fact-checking) dans le contexte

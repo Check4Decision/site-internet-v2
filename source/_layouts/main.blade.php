@@ -7,11 +7,14 @@
     <link rel="canonical" href="{{ $page->getUrl() }}">
     <meta name="description" content="{{ $page->description }}">
     <title>Check4Decision - @yield('title')</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Oxygen&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
 </head>
 
-<body class="text-gray-900 font-sans antialiased bg-white">
+<body class="text-gray-900 font-inter antialiased bg-white">
     <header class="flex flex-col px-4 pt-6 sm:flex-row sm:items-center">
         <x-navigation />
     </header>

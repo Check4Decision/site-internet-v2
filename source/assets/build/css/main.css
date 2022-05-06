@@ -22364,6 +22364,14 @@ video {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-inter {
+  font-family: Inter, sans-serif;
+}
+
+.font-oxygen {
+  font-family: Oxygen, sans-serif;
+}
+
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -53604,6 +53612,14 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .sm\:font-inter {
+    font-family: Inter, sans-serif;
+  }
+
+  .sm\:font-oxygen {
+    font-family: Oxygen, sans-serif;
+  }
+
   .sm\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -84830,6 +84846,14 @@ video {
 
   .md\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .md\:font-inter {
+    font-family: Inter, sans-serif;
+  }
+
+  .md\:font-oxygen {
+    font-family: Oxygen, sans-serif;
   }
 
   .md\:text-xs {
@@ -116060,6 +116084,14 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-inter {
+    font-family: Inter, sans-serif;
+  }
+
+  .lg\:font-oxygen {
+    font-family: Oxygen, sans-serif;
+  }
+
   .lg\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -147288,6 +147320,14 @@ video {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-inter {
+    font-family: Inter, sans-serif;
+  }
+
+  .xl\:font-oxygen {
+    font-family: Oxygen, sans-serif;
+  }
+
   .xl\:text-xs {
     font-size: 0.75rem;
     line-height: 1rem;
@@ -178514,6 +178554,14 @@ video {
 
   .\32xl\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .\32xl\:font-inter {
+    font-family: Inter, sans-serif;
+  }
+
+  .\32xl\:font-oxygen {
+    font-family: Oxygen, sans-serif;
   }
 
   .\32xl\:text-xs {
