@@ -609,6 +609,14 @@ video {
   }
 }
 
+.project-title {
+  font-size: 3rem;
+}
+
+.project-description {
+  max-width: 50rem;
+}
+
 .sr-only {
   position: absolute;
   width: 1px;

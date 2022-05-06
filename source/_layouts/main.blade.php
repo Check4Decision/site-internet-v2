@@ -15,7 +15,7 @@
     <header class="flex flex-col px-4 pt-6 sm:flex-row sm:items-center">
         <x-navigation />
     </header>
-    @yield('body')
+    @yield('main')
 </body>
 
 </html>
