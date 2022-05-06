@@ -11,7 +11,10 @@
     <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
 </head>
 
-<body class="text-gray-900 font-sans antialiased">
+<body class="text-gray-900 font-sans antialiased bg-white">
+    <header class="flex flex-col px-4 pt-6 sm:flex-row sm:items-center">
+        <x-navigation />
+    </header>
     @yield('body')
 </body>
 
