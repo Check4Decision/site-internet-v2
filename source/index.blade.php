@@ -23,5 +23,31 @@
                 <x-domain icon="data-science">Data Science</x-domain>
             </div>
         </section>
+
+        <!-- Consortium -->
+        <section class="text-center mt-20 space-y-10">
+            <h2 class="text-3xl sm:text-5xl font-oxygen font-bold">Consortium</h2>
+
+            <div class="grid grid-cols-2 place-items-center gap-6 sm:grid-cols-4">
+                <img class="w-28 h-28" src="/assets/images/ut.png" alt="Logo Université de Thiès">
+                <img class="w-28 h-28" src="/assets/images/utt.png" alt="Logo Université de Technologie de Troyes">
+                <img class="w-28 h-28" src="/assets/images/ceamitic.png" alt="Logo CEA-MITIC">
+                <img class="w-28 h-28" src="/assets/images/ucao.png"
+                    alt="Logo Université Catholique de l'Afrique de l'Ouest">
+            </div>
+        </section>
+
+        <!-- Partenaires -->
+        <section class="text-center mt-5 space-y-10">
+            <h2 class="font-oxygen text-gray-500 text-2xl font-bold">Partenaires</h2>
+
+            <div class="grid grid-cols-2 place-items-center gap-6 sm:grid-cols-4">
+                <img class="w-28 h-28 filter-grayscale" src="/assets/images/ugb.png" alt="Logo Gaston Berger">
+                <img class="w-28 h-28 filter-grayscale" src="/assets/images/aims.png" alt="Logo AIMS Sénégal">
+                <img class="w-28 h-28 filter-grayscale" src="/assets/images/dsi_ut.png"
+                    alt="Logo DSI de l'Université de Thiès">
+                <img class="w-28 h-28 filter-grayscale" src="/assets/images/uasz.png" alt="Logo Université Assane Seck">
+            </div>
+        </section>
     </main>
 @endsection

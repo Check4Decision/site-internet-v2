@@ -11,3 +11,9 @@
         max-width: 50rem;
     }
 }
+
+@layer utilities {
+    .filter-grayscale {
+        filter: grayscale(100%);
+    }
+}
