@@ -1,6 +1,6 @@
 @props(['icon'])
 
-<article class="flex items-start gap-4">
+<div class="flex items-start gap-4">
     <div class="bg-blue-500 text-white p-2 rounded-md">
         <x-icon :name="$icon" />
     </div>
@@ -13,4 +13,4 @@
             {{ $slot }}
         </p>
     </div>
-</article>
+</div>
