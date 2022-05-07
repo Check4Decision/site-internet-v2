@@ -4,5 +4,5 @@
     <div class="bg-blue-500 text-white p-2 rounded-md">
         <x-icon :name="$icon" />
     </div>
-    <span class="text-center font-semibold">{{ $slot }}</span>
+    <span class="text-center font-bold">{{ $slot }}</span>
 </div>
