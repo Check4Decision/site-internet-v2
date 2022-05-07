@@ -12,8 +12,9 @@ $domainIconsSize = 'w-10 h-10';
     </svg>
 @elseif ($name === 'fact-checking')
     <svg xmlns="http://www.w3.org/2000/svg" @class([$domainIconsSize]) viewBox="0 0 20 20" fill="currentColor">
-        <path
-            d="M10 3.5a1.5 1.5 0 013 0V4a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-.5a1.5 1.5 0 000 3h.5a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-.5a1.5 1.5 0 00-3 0v.5a1 1 0 01-1 1H6a1 1 0 01-1-1v-3a1 1 0 00-1-1h-.5a1.5 1.5 0 010-3H4a1 1 0 001-1V6a1 1 0 011-1h3a1 1 0 001-1v-.5z" />
+        <path fill-rule="evenodd"
+            d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+            clip-rule="evenodd" />
     </svg>
 @elseif ($name === 'algorithme')
     <svg xmlns="http://www.w3.org/2000/svg" @class([$domainIconsSize]) viewBox="0 0 20 20" fill="currentColor">
@@ -22,10 +23,9 @@ $domainIconsSize = 'w-10 h-10';
             clip-rule="evenodd" />
     </svg>
 @elseif ($name === 'traitement-langue')
-    <svg xmlns="http://www.w3.org/2000/svg" @class([$domainIconsSize]) fill="none" viewBox="0 0 24 24"
-        stroke="currentColor" stroke-width="2">
-        <path stroke-linecap="round" stroke-linejoin="round"
-            d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z" />
+    <svg xmlns="http://www.w3.org/2000/svg" @class([$domainIconsSize]) viewBox="0 0 20 20" fill="currentColor">
+        <path
+            d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
     </svg>
 @elseif ($name === 'intelligence-artificielle')
     <svg xmlns="http://www.w3.org/2000/svg" @class([$domainIconsSize]) fill="none" viewBox="0 0 24 24"
@@ -38,5 +38,16 @@ $domainIconsSize = 'w-10 h-10';
         <path fill-rule="evenodd"
             d="M7 2a1 1 0 00-.707 1.707L7 4.414v3.758a1 1 0 01-.293.707l-4 4C.817 14.769 2.156 18 4.828 18h10.343c2.673 0 4.012-3.231 2.122-5.121l-4-4A1 1 0 0113 8.172V4.414l.707-.707A1 1 0 0013 2H7zm2 6.172V4h2v4.172a3 3 0 00.879 2.12l1.027 1.028a4 4 0 00-2.171.102l-.47.156a4 4 0 01-2.53 0l-.563-.187a1.993 1.993 0 00-.114-.035l1.063-1.063A3 3 0 009 8.172z"
             clip-rule="evenodd" />
+    </svg>
+@elseif ($name === 'presentation-chart-bar')
+    <svg xmlns="http://www.w3.org/2000/svg" @class([$domainIconsSize]) viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd"
+            d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11 4a1 1 0 10-2 0v4a1 1 0 102 0V7zm-3 1a1 1 0 10-2 0v3a1 1 0 102 0V8zM8 9a1 1 0 00-2 0v2a1 1 0 102 0V9z"
+            clip-rule="evenodd" />
+    </svg>
+@elseif ($name === 'video-camera')
+    <svg xmlns="http://www.w3.org/2000/svg" @class([$domainIconsSize]) viewBox="0 0 20 20" fill="currentColor">
+        <path
+            d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z" />
     </svg>
 @endif

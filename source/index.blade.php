@@ -49,5 +49,22 @@
                 <img class="w-28 h-28 filter-grayscale" src="/assets/images/uasz.png" alt="Logo Université Assane Seck">
             </div>
         </section>
+
+        <!-- Axes d'intervention -->
+        <section class="text-center mt-20 space-y-10">
+            <h2 class="text-3xl sm:text-5xl font-oxygen font-bold">Axes d'intervention</h2>
+            <div class="grid grid-cols-1 place-items-center items-stretch gap-6 lg:grid-cols-2 xl:grid-cols-3">
+                @foreach ($axes as $axe)
+                    <x-axe :icon="$axe->icon">
+                        <x-slot name="title">
+                            {{ $axe->title }}
+                        </x-slot>
+
+                        <!-- Remove p tags -->
+                        {{ \Illuminate\Support\Str::between($axe->getContent(), '<p>', '</p>') }}
+                    </x-axe>
+                @endforeach
+            </div>
+        </section>
     </main>
 @endsection
