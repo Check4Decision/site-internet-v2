@@ -66,5 +66,32 @@
                 @endforeach
             </div>
         </section>
+
+        <!-- Axes d'intervention -->
+        <section class="text-center mt-20 space-y-10">
+            <h2 class="text-3xl sm:text-5xl font-oxygen font-bold">Equipe</h2>
+
+            <!-- Responsables -->
+            <div class="grid justify-items-center mx-auto gap-7 md:grid-cols-2 md:max-w-3xl">
+                @foreach ($responsables as $responsable)
+                    <x-team-member :image="$responsable->image" :image-alt="$responsable->image_alt" :image-scale="$responsable->image_scale" :image-translate="$responsable->image_translate">
+                        <x-slot name="name">
+                            {{ $responsable->name }}
+                        </x-slot>
+
+                        <x-slot name="jobTitle">
+                            {{ $responsable->job_title }}
+                        </x-slot>
+
+                        <!-- Remove p tags -->
+                        {{ \Illuminate\Support\Str::between($responsable->getContent(), '<p>', '</p>') }}
+                    </x-team-member>
+                @endforeach
+            </div>
+
+            <!-- Stagiaires -->
+            <div>
+            </div>
+        </section>
     </main>
 @endsection
