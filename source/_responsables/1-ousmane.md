@@ -2,7 +2,7 @@
 name: Prof. Ousmane SALL
 job_title: Professeur des Universités
 image: ousmane.png
-image_alt: Professeur Ousmane SALL
+image_alt: Photo de Professeur Ousmane SALL
 image_scale: 2.2
 image_translate: "translate-y-5 translate-x-1"
 ---

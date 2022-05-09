@@ -2,7 +2,7 @@
 name: Prof. Mamadou BOUSSO
 job_title: Enseignant-Chercheur
 image: bousso.jpg
-image_alt: Professeur Mamadou BOUSSO
+image_alt: Photo de Professeur Mamadou BOUSSO
 image_scale: 1.0
 image_translate: translate-x-2
 ---

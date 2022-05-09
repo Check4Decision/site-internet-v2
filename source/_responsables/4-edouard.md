@@ -2,7 +2,7 @@
 name: Dr. Edouard Ngor SARR
 job_title: Maitre Assistant
 image: edouard.jpg
-image_alt: Docteur Edouard Ngor SARR
+image_alt: Photo de Docteur Edouard Ngor SARR
 image_scale: 1.2
 image_translate: translate-y-2
 ---

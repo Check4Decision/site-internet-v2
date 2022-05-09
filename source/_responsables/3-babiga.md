@@ -2,7 +2,7 @@
 name: Dr. Babiga BIRREGAH
 job_title: Enseignant-Chercheur
 image: babiga.jpg
-image_alt: Docteur Babiga BIRREGAH
+image_alt: Photo de Docteur Babiga BIRREGAH
 image_scale: 1.6
 image_translate: translate-y-5
 ---
