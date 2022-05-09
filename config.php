@@ -5,5 +5,5 @@ return [
     'baseUrl' => '',
     'title' => 'Jigsaw',
     'description' => 'Website description.',
-    'collections' => ['axes', 'responsables'],
+    'collections' => ['axes', 'responsables', 'stagiaires'],
 ];

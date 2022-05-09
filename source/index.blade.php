@@ -68,11 +68,11 @@
         </section>
 
         <!-- Axes d'intervention -->
-        <section class="text-center mt-20 space-y-10">
+        <section class="text-center mt-20">
             <h2 class="text-3xl sm:text-5xl font-oxygen font-bold">Equipe</h2>
 
             <!-- Responsables -->
-            <div class="grid justify-items-center mx-auto gap-7 md:grid-cols-2 md:max-w-3xl">
+            <div class="grid justify-items-center mx-auto gap-10 md:grid-cols-2 md:max-w-3xl mt-10">
                 @foreach ($responsables as $responsable)
                     <x-team-member :image="$responsable->image" :image-alt="$responsable->image_alt" :image-scale="$responsable->image_scale" :image-translate="$responsable->image_translate">
                         <x-slot name="name">
@@ -90,7 +90,44 @@
             </div>
 
             <!-- Stagiaires -->
-            <div>
+            <div class="space-y-5 mt-20" x-data="{
+                gapSize: 1.25,
+                itemSize: 21.25, // 20 + gapSize
+                scrollLeft: 0,
+                nbItems: @js($stagiaires->count()),
+                currentItem: 1
+            }">
+                <div class="overflow-x-hidden w-80 mx-auto">
+                    <div class="flex flex-nowrap transition-transform duration-500"
+                        x-bind:style="{ gap: `${gapSize}rem`, 'transform': `translateX(${scrollLeft}rem)` }">
+                        @foreach ($stagiaires as $stagiaire)
+                            <x-team-member :image="$stagiaire->image" :image-alt="$stagiaire->image_alt" :image-scale="$stagiaire->image_scale" :image-translate="$stagiaire->image_translate">
+                                <x-slot name="name">
+                                    {{ $stagiaire->name }}
+                                </x-slot>
+                                <x-slot name="jobTitle">
+                                    {{ $stagiaire->job_title }}
+                                </x-slot>
+
+                                <!-- Remove p tags -->
+                                {{ \Illuminate\Support\Str::between($responsable->getContent(), '<p>', '</p>') }}
+                            </x-team-member>
+                        @endforeach
+                    </div>
+                </div>
+
+                <div class="space-x-3">
+                    <button class="rounded-full p-3" x-on:click="scrollLeft += itemSize; currentItem--;"
+                        x-bind:disabled="currentItem === 1"
+                        x-bind:class="{ 'bg-gray-200': (currentItem > 1), 'bg-gray-100 ': (currentItem === 1) }">
+                        <x-icon name="arrow-narrow-left" class="w-5 h-5" />
+                    </button>
+                    <button class="rounded-full bg-gray-200 p-3" x-on:click="scrollLeft -= itemSize; currentItem++;"
+                        x-bind:disabled="currentItem === nbItems"
+                        x-bind:class="{ 'bg-gray-200': (currentItem < nbItems), 'bg-gray-100 ': (currentItem === nbItems) }">
+                        <x-icon name="arrow-narrow-right" class="w-5 h-5" />
+                    </button>
+                </div>
             </div>
         </section>
     </main>

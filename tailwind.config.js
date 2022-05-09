@@ -6,6 +6,10 @@ module.exports = {
                 inter: ["Inter", "sans-serif"],
                 oxygen: ["Oxygen", "sans-serif"],
             },
+            spacing: {
+                160: "40rem",
+                240: "60rem",
+            },
         },
     },
     variants: {
