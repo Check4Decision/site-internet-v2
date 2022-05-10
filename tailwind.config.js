@@ -7,8 +7,8 @@ module.exports = {
                 oxygen: ["Oxygen", "sans-serif"],
             },
             spacing: {
-                160: "40rem",
-                240: "60rem",
+                84: "21rem",
+                169: "42.25rem",
             },
         },
     },
