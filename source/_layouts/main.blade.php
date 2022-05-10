@@ -19,6 +19,30 @@
         <x-navigation />
     </header>
     @yield('main')
+    <footer class="bg-gray-100 px-4 py-8">
+        <div class="flex flex-col items-center gap-7 sm:flex-row sm:justify-between sm:items-baseline">
+            <div class="text-center space-y-2">
+                <img class="mx-auto sm:mx-0" src=" /assets/images/logo-mini.png" alt="Logo de Check4Decision">
+
+                <address class="text-center text-gray-700 sm:text-left text-sm">
+                    Université de Thiès <br>
+                    check4decision@univ-thies.sn <br>
+                    77 205 17 79 / 76 8748130
+                </address>
+            </div>
+
+            <!-- Links -->
+            <ul class="flex flex-col items-center gap-3 sm:flex-row">
+                <x-navigation-item title="Accueil" />
+                <x-navigation-item title="Publications" />
+                <x-navigation-item title="Moteur de recherche" />
+            </ul>
+        </div>
+
+        <p x-data class="mt-10 text-center">
+            Copyright <span x-text="new Date().getFullYear()"></span> &copy; Check4Decision
+        </p>
+    </footer>
 </body>
 
 </html>
