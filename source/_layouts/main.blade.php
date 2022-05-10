@@ -15,7 +15,7 @@
 </head>
 
 <body class="text-gray-900 font-inter antialiased bg-white">
-    <header class="flex flex-col px-4 pt-6 sm:flex-row sm:items-center">
+    <header class="flex flex-col px-4 pt-6 sm:flex-row sm:items-center" x-data="{ showMobileMenu: false }">
         <x-navigation />
     </header>
     @yield('main')
