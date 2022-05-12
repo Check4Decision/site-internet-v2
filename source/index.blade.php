@@ -14,15 +14,12 @@
         </p>
 
         <!-- Domaines d'activités -->
-        <div class="grid grid-cols-2 mt-20 gap-6 sm:grid-cols-3 lg:grid-cols-6">
-            <x-domain icon="data-journalism">Data Journalism</x-domain>
-            <x-domain icon="fact-checking">Fact Checking</x-domain>
-            <x-domain icon="algorithme">Algorithme et Modélisation</x-domain>
-            <x-domain icon="traitement-langue">Traitement Automatique de la Langue</x-domain>
-            <x-domain icon="intelligence-artificielle">Intelligence Artificielle</x-domain>
-            <x-domain icon="data-science">Data Science</x-domain>
-        </div>
-    </section>
+                <x-domain icon="database">Data Journalism</x-domain>
+                <x-domain icon="badge-check">Fact Checking</x-domain>
+                <x-domain icon="variable">Algorithme et Modélisation</x-domain>
+                <x-domain icon="translate">Traitement Automatique de la Langue</x-domain>
+                <x-domain icon="share">Intelligence Artificielle</x-domain>
+                <x-domain icon="breaker">Data Science</x-domain>
 
     <!-- Consortium -->
     <section class="text-center mt-20 space-y-10">

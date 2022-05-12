@@ -2,7 +2,7 @@
 
 <div class="flex flex-col items-center gap-4 rounded-lg p-2">
     <div class="bg-blue-500 text-white p-2 rounded-md">
-        <x-icon :name="$icon" />
+        <x-icon :name="$icon" class="w-10 h-10" />
     </div>
     <span class="text-center font-bold">{{ $slot }}</span>
 </div>
