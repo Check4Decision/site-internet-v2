@@ -15,14 +15,13 @@
     <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
 </head>
 
-<body class="font-nunito antialiased bg-white">
-
+<body class="font-nunito antialiased min-h-screen bg-white flex flex-col">
     <header class="relative bg-gradient-to-l from-transparent to-gray-100">
         <x-background-pattern />
         <x-navigation :page="$page" />
         @yield('hero')
     </header>
-    <main>
+    <main class="flex-1">
         @yield('main')
     </main>
     <footer class="bg-gray-100 px-5 pt-8 pb-2 relative">
