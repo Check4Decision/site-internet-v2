@@ -1,0 +1,24 @@
+{{-- https://doodad.dev/pattern-generator/ --}}
+<svg height="100%" width="100%" class="absolute inset-0" style="z-index: -1;">
+    <defs>
+        <pattern id="doodad" width="34.64" height="40" viewBox="0 0 69.2820323027551 80" patternUnits="userSpaceOnUse"
+            patternTransform="rotate(135)">
+            <rect width="100%" height="100%" fill="rgba(247, 250, 252,1)" />
+            <path d="M52.83 50.5L51.96 51L51.09 50.5L51.09 49.5L51.96 49L52.83 49.5z" stroke-linejoin="miter"
+                fill="rgba(43, 108, 176,1)" />
+            <path d="M35.51 60.5L34.64 61L33.77 60.5L33.77 59.5L34.64 59L35.51 59.5z" stroke-linejoin="miter"
+                fill="rgba(43, 108, 176,1)" />
+            <path d="M18.19 50.5L17.32 51L16.45 50.5L16.45 49.5L17.32 49L18.19 49.5z" stroke-linejoin="miter"
+                fill="rgba(43, 108, 176,1)" />
+            <path d="M18.19 30.5L17.32 31L16.45 30.5L16.45 29.5L17.32 29L18.19 29.5z" stroke-linejoin="miter"
+                fill="rgba(43, 108, 176,1)" />
+            <path d="M35.51 20.5L34.64 21L33.77 20.5L33.77 19.5L34.64 19L35.51 19.5z" stroke-linejoin="miter"
+                fill="rgba(43, 108, 176,1)" />
+            <path d="M52.83 30.5L51.96 31L51.09 30.5L51.09 29.5L51.96 29L52.83 29.5z" stroke-linejoin="miter"
+                fill="rgba(43, 108, 176,1)" />
+            <path d="M36.37 41L34.64 42L32.91 41L32.91 39L34.64 38L36.37 39z" stroke-linejoin="miter"
+                fill="rgba(43, 108, 176,1)" />
+        </pattern>
+    </defs>
+    <rect fill="url(#doodad)" height="200%" width="200%" />
+</svg>

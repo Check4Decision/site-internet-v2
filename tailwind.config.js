@@ -1,10 +1,24 @@
+const colors = require("tailwindcss/colors");
+
 module.exports = {
     purge: ["source/**/*.blade.php", "source/**/*.md", "source/**/*.html"],
     theme: {
+        colors: {
+            transparent: "transparent",
+            current: "currentColor",
+            white: colors.white,
+            black: colors.black,
+            gray: colors.gray,
+            sky: colors.sky,
+            cyan: colors.cyan,
+        },
         extend: {
             fontFamily: {
-                inter: ["Inter", "sans-serif"],
-                oxygen: ["Oxygen", "sans-serif"],
+                nunito: ["Nunito", "sans-serif"],
+                koulen: ["Koulen", "cursive"],
+            },
+            fontSize: {
+                title: "2.8rem",
             },
             spacing: {
                 84: "21rem",
