@@ -20,8 +20,7 @@
         </div>
 
         <!-- Domaines d'activités -->
-        <div class="grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-6 bg-white border border-gray-300 shadow-md rounded-lg mx-5 xl:mx-auto"
-            style="max-width: 80rem;">
+        <div class="grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-6 mx-5 xl:mx-auto" style="max-width: 80rem;">
             <x-domain icon="database">Data Journalism</x-domain>
             <x-domain icon="badge-check">Fact Checking</x-domain>
             <x-domain icon="variable">Algorithme et Modélisation</x-domain>
