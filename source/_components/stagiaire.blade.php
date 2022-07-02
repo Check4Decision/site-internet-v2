@@ -1,6 +1,6 @@
 @props(['image', 'imageAlt', 'imageScale', 'imageTranslate'])
 
-<div class="bg-transparent ring-2 ring-gray-300 p-5 m-2 space-y-5 rounded-lg w-72">
+<div class="w-72 bg-transparent ring-2 ring-gray-300 p-5 m-2 space-y-5 rounded-lg">
     <div class="flex flex-col gap-5 items-center">
         <div class="w-20 h-20 overflow-hidden rounded-full shrink-0">
             <img class="w-full h-full transform {{ $imageTranslate }}"
