@@ -1,15 +1,15 @@
 @props(['icon'])
 
-<div class="flex items-start gap-4">
-    <div class="bg-cyan-700 text-white p-2 rounded-md">
-        <x-icon :name="$icon" class="w-10 h-10" />
+<div class="text-center md:text-left space-y-5">
+    <div class="inline-block border-2 border-white text-white p-2 rounded-md">
+        <x-icons :name="$icon" class="w-10 h-10" stroke-width="1.25" />
     </div>
 
-    <div class="space-y-2">
-        <h3 class="text-lg font-black tracking-wide text-left text-white">
-            {{ $title }}
+    <div class="space-y-5">
+        <h3 class="text-xl text-white font-bold">
+            {{ $title }}}
         </h3>
-        <p class="text-left text-sm font-light text-white leading-loose tracking-wider">
+        <p class="text-white font-medium leading-loose tracking-wider">
             {{ $slot }}
         </p>
     </div>

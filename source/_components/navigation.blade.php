@@ -1,6 +1,6 @@
 @props(['page'])
 
-<div class="flex flex-col px-5 py-2 sm:flex-row sm:items-center text-center mx-auto" style="max-width: 80rem;">
+<div class="flex flex-col max-w-7xl mx-auto px-5 py-2 text-center sm:flex-row sm:items-center">
     <!-- Logo -->
     <a href="{{ $page->baseUrl }}/">
         <img src="/assets/images/logo-mini.png" alt="Logo de Check4Decision" class="w-16 h-14">
@@ -16,16 +16,23 @@
         </button>
 
         <!-- Navigation links -->
-        <ul class="items-center gap-6 pb-4 border-b-2 border-gray-200 sm:flex-row sm:pb-0 sm:border-b-0 transform  scale-0 transition-transform ease-out duration-500"
+        <ul class="items-center gap-6 pb-4 border-b-2 border-gray-200 transform scale-0 transition-transform ease-out duration-500 sm:flex-row sm:pb-0 sm:border-b-0"
             x-bind:class="{ 'hidden sm:flex sm:scale-100': !showMenu, 'flex flex-col scale-100': showMenu }">
-            <x-navigation-item class="{{ $page->link_is_active('') }}" href="{{ $page->baseUrl }}/">
-                Accueil
-            </x-navigation-item>
-            <x-navigation-item class="{{ $page->link_is_active('publications') }}"
-                href="{{ $page->baseUrl }}/publications">
-                Publications
-            </x-navigation-item>
-            <x-navigation-item>Moteur de recherche</x-navigation-item>
+            <li>
+                <x-navigation-item href="/" :isActive="$page->linkIsActive('')">
+                    Accueil
+                </x-navigation-item>
+            </li>
+            <li>
+                <x-navigation-item href="/publications" :isActive="$page->linkIsActive('publications')">
+                    Publications
+                </x-navigation-item>
+            </li>
+            <li>
+                <x-navigation-item href="https://check4decision.univ-thies.sn/search/" target="_blank">
+                    Moteur de recherche
+                </x-navigation-item>
+            </li>
         </ul>
     </nav>
 </div>
