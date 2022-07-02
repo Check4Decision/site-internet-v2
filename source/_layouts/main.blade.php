@@ -30,7 +30,8 @@
         <div class="max-w-7xl mx-auto">
             <div class="flex flex-col items-center gap-7 sm:flex-row sm:justify-between sm:items-baseline">
                 <div class="text-center space-y-2">
-                    <img class="mx-auto sm:mx-0" src="/assets/images/logo-mini.png" alt="Logo de Check4Decision">
+                    <img class="mx-auto sm:mx-0" src="/assets/images/logo-mini.png" alt="Logo de Check4Decision"
+                        width="82" height="66" loading="lazy" decoding="async">
                     <address class="text-center text-sm font-medium tracking-widest leading-relaxed sm:text-left">
                         Université de Thiès <br>
                         check4decision@univ-thies.sn <br>

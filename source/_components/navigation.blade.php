@@ -2,8 +2,8 @@
 
 <div class="flex flex-col max-w-7xl mx-auto px-5 py-2 text-center sm:flex-row sm:items-center">
     <!-- Logo -->
-    <a href="{{ $page->baseUrl }}/">
-        <img src="/assets/images/logo-mini.png" alt="Logo de Check4Decision" class="w-16 h-14">
+    <a href="/">
+        <img src="/assets/images/logo-mini.png" alt="Logo de Check4Decision" class="w-16 h-14" width="64" height="56">
     </a>
 
 

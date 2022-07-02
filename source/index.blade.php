@@ -39,11 +39,18 @@
             <h2 class="text-4xl text-center font-bold sm:text-5xl">Consortium</h2>
 
             <div class="grid grid-cols-2 place-items-center gap-6 sm:grid-cols-4">
-                <img class="w-28 h-28" src="/assets/images/ut.png" alt="Logo Université de Thiès">
-                <img class="w-28 h-28" src="/assets/images/utt.png" alt="Logo Université de Technologie de Troyes">
-                <img class="w-28 h-28" src="/assets/images/ceamitic.png" alt="Logo CEA-MITIC">
-                <img class="w-28 h-28" src="/assets/images/ucao.png"
-                    alt="Logo Université Catholique de l'Afrique de l'Ouest">
+                <img class="w-28 h-28" src="/assets/images/ut.jpeg" alt="Logo Université Iba Der Thiam de Thiès"
+                    title=" Université Iba Der Thiam de Thiès" width="112" height="112" loading="lazy"
+                    decoding="async">
+                <img class="w-28 h-28" src="/assets/images/utt.jpg" alt="Logo Université de Technologie de Troyes"
+                    title="Université de Technologie de Troyes" width="112" height="112" loading="lazy"
+                    decoding="async">
+                <img class="w-28 h-28" src="/assets/images/ceamitic.jpg" alt="Logo CEA-MITIC" title="CEA-MITIC"
+                    width="112" height="112" loading="lazy" decoding="async">
+                <img class="w-28 h-28" src="/assets/images/ucao.jpg"
+                    alt="Logo Université Catholique de l'Afrique de l'Ouest"
+                    title="Université Catholique de l'Afrique de l'Ouest" width="112" height="112" loading="lazy"
+                    decoding="async">
             </div>
         </div>
     </section>
@@ -54,10 +61,14 @@
             <h2 class="text-gray-500 text-3xl text-center font-bold">Partenaires</h2>
 
             <div class="grid grid-cols-2 place-items-center gap-6 sm:grid-cols-4">
-                <img class="w-28 h-28 grayscale" src="/assets/images/ugb.png" alt="Logo Gaston Berger">
-                <img class="w-28 h-28 grayscale" src="/assets/images/aims.png" alt="Logo AIMS Sénégal">
-                <img class="w-28 h-28 grayscale" src="/assets/images/dsi_ut.png" alt="Logo DSI de l'Université de Thiès">
-                <img class="w-28 h-28 grayscale" src="/assets/images/uasz.png" alt="Logo Université Assane Seck">
+                <img class="w-28 h-28 grayscale" src="/assets/images/ugb.jpg" alt="Logo Gaston Berger" title="Gaston Berger"
+                    width="112" height="112" loading="lazy" decoding="async">
+                <img class="w-28 h-28 grayscale" src="/assets/images/aims.jpg" alt="Logo AIMS Sénégal" title="AIMS Sénégal"
+                    width="112" height="112" loading="lazy" decoding="async">
+                <img class="w-28 h-28 grayscale" src="/assets/images/dsi_ut.jpg" alt="Logo DSI de l'Université de Thiès"
+                    title="DSI de l'Université de Thiès" width="112" height="112" loading="lazy" decoding="async">
+                <img class="w-28 h-28 grayscale" src="/assets/images/uasz.jpg" alt="Logo Université Assane Seck"
+                    title="Université Assane Seck" width="112" height="112" loading="lazy" decoding="async">
             </div>
         </div>
     </section>

@@ -3,9 +3,8 @@
 <div class="p-5 space-y-5">
     <div class="flex gap-5 items-center">
         <div class="w-20 h-20 overflow-hidden rounded-full shrink-0">
-            <img class="w-full h-full transform {{ $imageTranslate }}"
-                style="--tw-scale-x: {{ $imageScale }}; --tw-scale-y: {{ $imageScale }};"
-                src="/assets/images/{{ $image }}" alt="{{ $imageAlt }}">
+            <img class="w-full h-full" src="/assets/images/{{ $image }}" alt="{{ $imageAlt }}" width="80"
+                height="80" loading="lazy" decoding="async">
         </div>
 
         <div class="space-y-1 text-left">
