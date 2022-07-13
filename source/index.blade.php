@@ -13,9 +13,10 @@
             </h1>
             <p
                 class="text-center font-normal mt-5 leading-loose tracking-wider sm:text-lg md:text-left  md:text-base sm:mx-auto sm:mt-8">
-                Projet de recherche financé par le CEA-MITIC, qui traite les questions relatives à l'automatisation de
-                la collecte et l'agrégation de données mais aussi de la vérification des faits (fact-checking) dans le
-                contexte web journalistique.
+                Projet de recherche financé par le
+                <abbr title="Centre d'Excellence Africain en Mathématiques, informatique et TIC">CEA-MITIC</abbr>, qui traite
+                les questions relatives à l'automatisation de la collecte et l'agrégation de données mais aussi de la
+                vérification des faits (fact-checking) dans le contexte web journalistique.
             </p>
         </div>
 
