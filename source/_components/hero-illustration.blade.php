@@ -1,6 +1,6 @@
 <!-- reviewed docs illustration from unDraw -->
 
-<svg class="w-full h-full" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="836.00447" height="437.46152" viewBox="0 0 836.00447 437.46152" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg {{ $attributes }} class="w-full h-full" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="836.00447" height="437.46152" viewBox="0 0 836.00447 437.46152" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g id="f59d61bb-6173-4011-886f-cab752b15cf5" data-name="Group 14">
         <path id="ea601028-2261-4201-a5c6-6d1fee0209f8-2393" data-name="Path 284" d="M994.40227,465.87775a10.13794,10.13794,0,0,1-2.678-15.312l-10.57-77.264,22.019,1.081,3.457,75.363a10.192,10.192,0,0,1-12.228,16.132Z" transform="translate(-181.99777 -231.26924)" fill="#a0616a" />
         <path id="bab8e504-63c3-4a02-b094-c521f4d0da0a-2394" data-name="Path 285" d="M1006.19527,375.40676a4.138,4.138,0,0,1-1.681,1.189l-19.788,7.552a4.157,4.157,0,0,1-5.281-2.194l-17.529-39.393a16.46,16.46,0,0,1-.805-11.649,16.0099,16.0099,0,0,1,12.185-10.924,15.26906,15.26906,0,0,1,6.578.093,15.947,15.947,0,0,1,11.461,9.963l15.585,41.2A4.16588,4.16588,0,0,1,1006.19527,375.40676Z" transform="translate(-181.99777 -231.26924)" fill="#ccc" />

@@ -28,7 +28,7 @@
                 class="absolute left-1/2 w-96 h-96 -translate-y-1/3 sm:w-[30rem] sm:h-[30rem] lg:w-[37rem] lg:h-[37rem]  sm:-translate-y-1/4 -z-20 bg-sky-700 rounded-full">
             </div>
 
-            <x-hero-illustration />
+            <x-hero-illustration aria-hidden="true" />
         </div>
     </div>
 @endsection
@@ -62,8 +62,8 @@
             <h2 class="text-gray-500 text-3xl text-center font-bold">Partenaires</h2>
 
             <div class="grid grid-cols-2 place-items-center gap-6 sm:grid-cols-4">
-                <img class="w-28 h-28 grayscale" src="/assets/images/ugb.jpg" alt="Logo Gaston Berger" title="Gaston Berger"
-                    width="112" height="112" loading="lazy" decoding="async">
+                <img class="w-28 h-28 grayscale" src="/assets/images/ugb.jpg" alt="Logo Université Gaston Berger"
+                    title="Gaston Berger" width="112" height="112" loading="lazy" decoding="async">
                 <img class="w-28 h-28 grayscale" src="/assets/images/aims.jpg" alt="Logo AIMS Sénégal" title="AIMS Sénégal"
                     width="112" height="112" loading="lazy" decoding="async">
                 <img class="w-28 h-28 grayscale" src="/assets/images/dsi_ut.jpg" alt="Logo DSI de l'Université de Thiès"

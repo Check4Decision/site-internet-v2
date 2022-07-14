@@ -1,7 +1,7 @@
 @props(['icon'])
 
 <div class="text-center md:text-left space-y-5">
-    <div class="inline-block border-2 border-white text-white p-2 rounded-md">
+    <div class="inline-block border-2 border-white text-white p-2 rounded-md" aria-hidden="true">
         <x-icons :name="$icon" class="w-10 h-10" stroke-width="1.25" />
     </div>
 
