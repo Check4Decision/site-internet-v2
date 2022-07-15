@@ -8,16 +8,17 @@
 
 
     <nav class="mt-4 sm:ml-auto sm:mt-0" x-data="{ showMenu: false }">
-        <!-- Mobile menu trigger (hamburger icon) -->
+        <!-- Mobile menu trigger -->
         <button
             class="absolute top-4 right-5 ml-auto border-2 border-cyan-700 text-sky-700 font-black tracking-wider bg-white bg-opacity-70 rounded-full px-4 py-2 sm:hidden"
-            x-on:click="showMenu = !showMenu">
+            aria-controls="menu" x-bind:aria-expanded="showMenu" x-on:click="showMenu = !showMenu">
             Menu
         </button>
 
         <!-- Navigation links -->
-        <ul class="items-center gap-6 pb-4 border-b-2 border-gray-200 transform scale-0 transition-transform ease-out duration-500 sm:flex-row sm:pb-0 sm:border-b-0"
-            x-bind:class="{ 'hidden sm:flex sm:scale-100': !showMenu, 'flex flex-col scale-100': showMenu }">
+        <ul id="menu"
+            class="absolute left-5 right-5 z-20 hidden flex-col items-start gap-6 p-4 bg-sky-700 shadow-xl shadow-gray-600 rounded-md sm:static sm:flex sm:flex-row sm:pb-0 sm:bg-transparent sm:shadow-none"
+            x-bind:class="{ 'hidden': !showMenu, 'flex': showMenu }">
             <li>
                 <x-navigation-item href="/" :isActive="$page->linkIsActive('')">
                     Accueil
