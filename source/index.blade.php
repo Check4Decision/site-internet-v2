@@ -18,18 +18,14 @@
 
             <!-- Consortium -->
             <div class="w-64 grid grid-cols-2 place-items-center gap-6 mx-auto mt-16 sm:w-auto sm:grid-cols-4">
-                <img class="w-28 h-28 bg-white border border-gray-200 rounded-md shadow-md" src="/assets/images/ut.jpeg"
-                    alt="Logo Université Iba Der Thiam de Thiès" title=" Université Iba Der Thiam de Thiès" width="112"
-                    height="112" decoding="async">
-                <img class="w-28 h-28 bg-white border border-gray-200 rounded-md shadow-md" src="/assets/images/utt.jpg"
-                    alt="Logo Université de Technologie de Troyes" title="Université de Technologie de Troyes"
-                    width="112" height="112" decoding="async">
-                <img class="w-28 h-28 bg-white border border-gray-200 rounded-md shadow-md"
-                    src="/assets/images/ceamitic.jpg" alt="Logo CEA-MITIC" title="CEA-MITIC" width="112" height="112"
-                    decoding="async">
-                <img class="w-28 h-28 bg-white border border-gray-200 rounded-md shadow-md" src="/assets/images/ucao.jpg"
-                    alt="Logo Université Catholique de l'Afrique de l'Ouest"
-                    title="Université Catholique de l'Afrique de l'Ouest" width="112" height="112" decoding="async">
+                <x-consortium src="/assets/images/ut.jpeg" alt="Logo Université Iba Der Thiam de Thiès"
+                    title=" Université Iba Der Thiam de Thiès" />
+                <x-consortium src="/assets/images/utt.jpg" alt="Logo Université de Technologie de Troyes"
+                    title="Université de Technologie de Troyes" />
+                <x-consortium class="w-28 h-28 bg-white border border-gray-200 rounded-md shadow-md"
+                    src="/assets/images/ceamitic.jpg" alt="Logo CEA-MITIC" title="CEA-MITIC" />
+                <x-consortium src="/assets/images/ucao.jpg" alt="Logo Université Catholique de l'Afrique de l'Ouest"
+                    title="Université Catholique de l'Afrique de l'Ouest" />
             </div>
         </div>
     </section>
@@ -68,14 +64,11 @@
             <x-section-title>Partenaires</x-section-title>
 
             <div class="grid grid-cols-2 place-items-center gap-6 sm:grid-cols-4">
-                <img class="w-28 h-28 grayscale" src="/assets/images/ugb.jpg" alt="Logo Université Gaston Berger"
-                    title="Gaston Berger" width="112" height="112" loading="lazy" decoding="async">
-                <img class="w-28 h-28 grayscale" src="/assets/images/aims.jpg" alt="Logo AIMS Sénégal" title="AIMS Sénégal"
-                    width="112" height="112" loading="lazy" decoding="async">
-                <img class="w-28 h-28 grayscale" src="/assets/images/dsi_ut.jpg" alt="Logo DSI de l'Université de Thiès"
-                    title="DSI de l'Université de Thiès" width="112" height="112" loading="lazy" decoding="async">
-                <img class="w-28 h-28 grayscale" src="/assets/images/uasz.jpg" alt="Logo Université Assane Seck"
-                    title="Université Assane Seck" width="112" height="112" loading="lazy" decoding="async">
+                <x-partner src="/assets/images/ugb.jpg" alt="Logo Université Gaston Berger" title="Gaston Berger" />
+                <x-partner src="/assets/images/aims.jpg" alt="Logo AIMS Sénégal" title="AIMS Sénégal" />
+                <x-partner src="/assets/images/dsi_ut.jpg" alt="Logo DSI de l'Université de Thiès"
+                    title="DSI de l'Université de Thiès" />
+                <x-partner src="/assets/images/uasz.jpg" alt="Logo Université Assane Seck" title="Université Assane Seck" />
             </div>
         </div>
     </section>
