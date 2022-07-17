@@ -2,7 +2,7 @@
 
 <div class="team-carousel max-w-[85rem] mx-auto">
     @foreach ($stagiaires as $stagiaire)
-        <x-stagiaire :image="$stagiaire->image" :image-alt="$stagiaire->image_alt" :image-scale="$stagiaire->image_scale" :image-translate="$stagiaire->image_translate">
+        <x-stagiaire :image="$stagiaire->image" :image-alt="$stagiaire->image_alt">
             <x-slot name="name">
                 {{ $stagiaire->name }}
             </x-slot>

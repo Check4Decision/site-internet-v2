@@ -2,64 +2,73 @@
 
 @section('title', 'Accueil')
 
-@section('hero')
-    <div
-        class="flex flex-col gap-24 max-w-7xl min-h-[92vh] px-5 mx-auto mt-10 sm:pt-20 md:flex-row md:items-center md:gap-16 md:mt-0 md:px-10 md:pt-0">
-        <!-- Project description -->
-        <div class="md:max-w-sm lg:max-w-lg">
-            <h1
-                class="text-[2.5rem] text-center text-sky-700 font-bold sm:text-6xl md:text-left md:text-[2.5rem] lg:text-6xl">
+@section('main')
+    <!-- Hero section -->
+    <section class="flex flex-col justify-center mx-auto px-5 py-24 md:px-10 md:py-36">
+        <div class="max-w-7xl mx-auto">
+            <h1 class="text-[2.4rem] text-center text-sky-600 font-bold sm:text-6xl md:text-7xl">
                 Check4Decision
             </h1>
             <p
-                class="text-center font-normal mt-5 leading-loose tracking-wider sm:text-lg md:text-left  md:text-base sm:mx-auto sm:mt-8">
-                Projet de recherche financé par le
-                <abbr title="Centre d'Excellence Africain en Mathématiques, informatique et TIC">CEA-MITIC</abbr>, qui traite
-                les questions relatives à l'automatisation de la collecte et l'agrégation de données mais aussi de la
-                vérification des faits (fact-checking) dans le contexte web journalistique.
+                class="max-w-3xl text-gray-700 font-medium text-center mt-5 leading-loose tracking-wider sm:text-lg sm:mx-auto">
+                Projet de recherche financé par le CEA-MITIC, qui traite les questions relatives à l'automatisation de
+                la collecte et l'agrégation de données mais aussi de la vérification des faits (fact-checking) dans le
+                contexte web journalistique.
             </p>
-        </div>
 
-        <!-- Illustration -->
-        <div
-            class="relative w-full h-full bg-white px-5 py-10 rounded-lg shadow-md sm:w-[30rem] sm:mx-auto md:h-auto md:w-auto">
-            <!-- Blue circle -->
-            <div
-                class="absolute left-1/2 w-96 h-96 -translate-y-1/3 sm:w-[30rem] sm:h-[30rem] lg:w-[37rem] lg:h-[37rem]  sm:-translate-y-1/4 -z-20 bg-sky-700 rounded-full">
-            </div>
-
-            <x-hero-illustration aria-hidden="true" />
-        </div>
-    </div>
-@endsection
-
-@section('main')
-    <!-- Consortium -->
-    <section class="px-5 py-20 md:px-10">
-        <div class="max-w-7xl mx-auto space-y-24">
-            <h2 class="text-4xl text-center font-bold sm:text-5xl">Consortium</h2>
-
-            <div class="grid grid-cols-2 place-items-center gap-6 sm:grid-cols-4">
-                <img class="w-28 h-28" src="/assets/images/ut.jpeg" alt="Logo Université Iba Der Thiam de Thiès"
-                    title=" Université Iba Der Thiam de Thiès" width="112" height="112" loading="lazy"
+            <!-- Consortium -->
+            <div class="w-64 grid grid-cols-2 place-items-center gap-6 mx-auto mt-16 sm:w-auto sm:grid-cols-4">
+                <img class="w-28 h-28 bg-white border border-gray-200 rounded-md shadow-md" src="/assets/images/ut.jpeg"
+                    alt="Logo Université Iba Der Thiam de Thiès" title=" Université Iba Der Thiam de Thiès" width="112"
+                    height="112" decoding="async">
+                <img class="w-28 h-28 bg-white border border-gray-200 rounded-md shadow-md" src="/assets/images/utt.jpg"
+                    alt="Logo Université de Technologie de Troyes" title="Université de Technologie de Troyes"
+                    width="112" height="112" decoding="async">
+                <img class="w-28 h-28 bg-white border border-gray-200 rounded-md shadow-md"
+                    src="/assets/images/ceamitic.jpg" alt="Logo CEA-MITIC" title="CEA-MITIC" width="112" height="112"
                     decoding="async">
-                <img class="w-28 h-28" src="/assets/images/utt.jpg" alt="Logo Université de Technologie de Troyes"
-                    title="Université de Technologie de Troyes" width="112" height="112" loading="lazy"
-                    decoding="async">
-                <img class="w-28 h-28" src="/assets/images/ceamitic.jpg" alt="Logo CEA-MITIC" title="CEA-MITIC"
-                    width="112" height="112" loading="lazy" decoding="async">
-                <img class="w-28 h-28" src="/assets/images/ucao.jpg"
+                <img class="w-28 h-28 bg-white border border-gray-200 rounded-md shadow-md" src="/assets/images/ucao.jpg"
                     alt="Logo Université Catholique de l'Afrique de l'Ouest"
-                    title="Université Catholique de l'Afrique de l'Ouest" width="112" height="112" loading="lazy"
-                    decoding="async">
+                    title="Université Catholique de l'Afrique de l'Ouest" width="112" height="112" decoding="async">
             </div>
         </div>
     </section>
 
+    <!-- A propos -->
+    <section class="bg-sky-600/80 font-medium px-5 py-20 md:px-10">
+        <h2 class="sr-only">A propos</h2>
+
+        <div class="mx-auto max-w-7xl space-y-5 text-white">
+            <p>
+                Ce projet de recherche vise à analyser dans quelle mesure le fact-checking, en tant que genre journalistique
+                est
+                automatisable. En d’autres termes, à proposer aux fact-checkers un ensemble d’outils d’aide à la
+                vérification des faits. Ces outils permettront entre autre de faciliter collecte et l’analyse des données
+                web, la vérification des informations mais aussi la visualisation des résultats.
+            </p>
+            <p>
+                Ces transformations se situent dans notre volonté de proposer une nouvelle façon d’exercer le métier de
+                journalisme par l'intégration des innovations technologiques actuelles. L’intérêt de ce projet réside non
+                seulement dans son positionnement scientifique innovant, mais aussi et surtout dans le fait qu’il intègre
+                une approche sociétale de la question de la gestion de l’information.
+            </p>
+            <p>
+                Il a pour ambition d’apporter une solution automatisée d’aide à la décision face à l’accroissement des
+                sources
+                d’information et la saturation des canaux habituels de fact-checking. Le but est alors de mettre en place
+                une plateforme commune de collecte et d’agrégation de données intégrant un moteur de fact-checking combinant
+                l’exploration de différentes sources de données.
+            </p>
+        </div>
+    </section>
+
     <!-- Partenaires -->
-    <section class="pt-5 pb-20 px-5 md:px-10">
-        <div class="max-w-7xl mx-auto space-y-10">
-            <h2 class="text-gray-500 text-3xl text-center font-bold">Partenaires</h2>
+    <section class="py-20 px-5 md:px-10">
+        <div class="max-w-7xl mx-auto space-y-24">
+            <h2
+                class="w-max mx-auto text-2xl font-bold after:block after:mt-2 after:w-12 after:h-2  after:rounded-full after:bg-sky-600/30 md:text-3xl">
+                Partenaires
+            </h2>
 
             <div class="grid grid-cols-2 place-items-center gap-6 sm:grid-cols-4">
                 <img class="w-28 h-28 grayscale" src="/assets/images/ugb.jpg" alt="Logo Université Gaston Berger"
@@ -75,9 +84,12 @@
     </section>
 
     <!-- Domaines d'activités -->
-    <section class="px-5 pt-20 py-36 md:px-10">
+    <section class="px-5 py-20 md:px-10">
         <div class="mx-auto space-y-24 max-w-7xl">
-            <h2 class="text-3xl text-center text-black font-bold sm:text-5xl">Domaines d'activités</h2>
+            <h2
+                class="w-max mx-auto text-2xl font-bold after:block after:mt-2 after:w-12 after:h-2 after:rounded-md after:bg-sky-600/25 md:text-3xl">
+                Domaines d'activités
+            </h2>
 
             <div class="grid grid-cols-2 gap-16 sm:grid-cols-3">
                 <x-domain icon="database">
@@ -103,9 +115,12 @@
     </section>
 
     <!-- Axes d'intervention -->
-    <section class="bg-sky-700 relative px-5 py-20 md:px-10">
+    <section class="relative px-5 py-20 md:px-10">
         <div class="max-w-7xl mx-auto space-y-24">
-            <h2 class="text-3xl text-white text-center font-bold sm:text-5xl">Axes d'intervention</h2>
+            <h2
+                class="w-max mx-auto text-2xl font-bold after:block after:mt-2 after:w-12 after:h-2 after:rounded-md after:bg-sky-600/25 md:text-3xl">
+                Axes d'intervention
+            </h2>
 
             <div class="grid grid-cols-1 place-items-center items-stretch gap-14 md:grid-cols-2 lg:grid-cols-3">
                 @foreach ($axes as $axe)
@@ -124,12 +139,15 @@
 
     <!-- Membres de l'équipe-->
     <section class="pt-20">
-        <h2 class="text-4xl text-center font-bold sm:text-5xl">Equipe</h2>
+        <h2
+            class="w-max mx-auto text-2xl font-bold after:block after:mt-2 after:w-12 after:h-2 after:rounded-md after:bg-sky-600/25 md:text-3xl">
+            Equipe
+        </h2>
 
         <!-- Responsables -->
         <div class="grid justify-items-center justify-center gap-5 px-5 mt-24 pb-20 mx-auto max-w-7xl md:grid-cols-2">
             @foreach ($responsables as $responsable)
-                <x-responsable :image="$responsable->image" :image-alt="$responsable->image_alt" :image-scale="$responsable->image_scale" :image-translate="$responsable->image_translate">
+                <x-responsable :image="$responsable->image" :image-alt="$responsable->image_alt">
                     <x-slot name="name">
                         {{ $responsable->name }}
                     </x-slot>
@@ -145,7 +163,7 @@
         </div>
 
         <!-- Stagiaires -->
-        <div class="bg-sky-700 pt-20 pb-10 px-5">
+        <div class="bg-sky-600/80 pt-20 pb-10 px-5">
             <x-stagiaires-carousel :stagiaires="$stagiaires" />
         </div>
     </section>

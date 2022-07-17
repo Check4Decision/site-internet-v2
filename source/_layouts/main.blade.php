@@ -9,7 +9,6 @@
     class="font-montserrat text-gray-800 bg-[url(/assets/images/dots.svg)] bg-repeat antialiased min-h-screen flex flex-col">
     <header>
         <x-navigation :page="$page" />
-        @yield('hero')
     </header>
     <main class="flex-1">
         @yield('main')

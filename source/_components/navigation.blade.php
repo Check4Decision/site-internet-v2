@@ -11,14 +11,14 @@
     <nav class="mt-4 sm:ml-auto sm:mt-0" x-data="{ showMenu: false }">
         <!-- Mobile menu trigger -->
         <button
-            class="absolute top-4 right-5 ml-auto border-2 border-cyan-700 text-sky-700 font-black tracking-wider bg-white bg-opacity-70 rounded-full px-4 py-2 sm:hidden"
+            class="absolute top-4 right-5 ml-auto border-2 border-cyan-600 text-sky-600 font-black tracking-wider bg-white bg-opacity-70 rounded-full px-4 py-2 sm:hidden"
             aria-controls="menu" x-bind:aria-expanded="showMenu" x-on:click="showMenu = !showMenu">
             Menu
         </button>
 
         <!-- Navigation links -->
         <ul id="menu"
-            class="absolute left-5 right-5 z-20 hidden flex-col items-start gap-6 p-4 bg-sky-700 shadow-xl shadow-gray-600 rounded-md sm:static sm:flex sm:flex-row sm:pb-0 sm:bg-transparent sm:shadow-none"
+            class="absolute left-5 right-5 z-20 hidden flex-col items-start gap-6 p-4 bg-sky-600 shadow-xl rounded-md sm:static sm:flex sm:flex-row sm:p-0 sm:bg-transparent sm:shadow-none"
             x-bind:class="{ 'hidden': !showMenu, 'flex': showMenu }">
             <li>
                 <x-navigation-item href="/" :isActive="$page->linkIsActive('')">

@@ -1,15 +1,15 @@
 @props(['icon'])
 
 <div class="text-center md:text-left space-y-5">
-    <div class="inline-block border-2 border-white text-white p-2 rounded-md" aria-hidden="true">
-        <x-icons :name="$icon" class="w-10 h-10" stroke-width="1.25" />
+    <div class="inline-block bg-sky-600/70 text-white p-2 rounded-md shadow-md" aria-hidden="true">
+        <x-icons :name="$icon" class="w-12 h-12" stroke-width="1.5" />
     </div>
 
-    <div class="space-y-5">
-        <h3 class="text-xl text-white font-bold">
+    <div>
+        <h3 class="text-gray-800 font-bold">
             {{ $title }}}
         </h3>
-        <p class="text-white font-medium leading-loose tracking-wider">
+        <p class="text-gray-600 font-medium mt-2 leading-loose">
             {{ $slot }}
         </p>
     </div>
