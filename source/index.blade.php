@@ -65,10 +65,7 @@
     <!-- Partenaires -->
     <section class="py-20 px-5 md:px-10">
         <div class="max-w-7xl mx-auto space-y-24">
-            <h2
-                class="w-max mx-auto text-2xl font-bold after:block after:mt-2 after:w-12 after:h-2  after:rounded-full after:bg-sky-600/30 md:text-3xl">
-                Partenaires
-            </h2>
+            <x-section-title>Partenaires</x-section-title>
 
             <div class="grid grid-cols-2 place-items-center gap-6 sm:grid-cols-4">
                 <img class="w-28 h-28 grayscale" src="/assets/images/ugb.jpg" alt="Logo Université Gaston Berger"
@@ -86,10 +83,7 @@
     <!-- Domaines d'activités -->
     <section class="px-5 py-20 md:px-10">
         <div class="mx-auto space-y-24 max-w-7xl">
-            <h2
-                class="w-max mx-auto text-2xl font-bold after:block after:mt-2 after:w-12 after:h-2 after:rounded-md after:bg-sky-600/25 md:text-3xl">
-                Domaines d'activités
-            </h2>
+            <x-section-title>Domaines d'activités</x-section-title>
 
             <div class="grid grid-cols-2 gap-16 sm:grid-cols-3">
                 <x-domain icon="database">
@@ -117,10 +111,9 @@
     <!-- Axes d'intervention -->
     <section class="relative px-5 py-20 md:px-10">
         <div class="max-w-7xl mx-auto space-y-24">
-            <h2
-                class="w-max mx-auto text-2xl font-bold after:block after:mt-2 after:w-12 after:h-2 after:rounded-md after:bg-sky-600/25 md:text-3xl">
+            <x-section-title>
                 Axes d'intervention
-            </h2>
+            </x-section-title>
 
             <div class="grid grid-cols-1 place-items-center items-stretch gap-14 md:grid-cols-2 lg:grid-cols-3">
                 @foreach ($axes as $axe)
@@ -139,10 +132,9 @@
 
     <!-- Membres de l'équipe-->
     <section class="pt-20">
-        <h2
-            class="w-max mx-auto text-2xl font-bold after:block after:mt-2 after:w-12 after:h-2 after:rounded-md after:bg-sky-600/25 md:text-3xl">
+        <x-section-title>
             Equipe
-        </h2>
+        </x-section-title>
 
         <!-- Responsables -->
         <div class="grid justify-items-center justify-center gap-5 px-5 mt-24 pb-20 mx-auto max-w-7xl md:grid-cols-2">
