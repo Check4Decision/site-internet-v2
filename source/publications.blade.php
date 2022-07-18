@@ -4,7 +4,7 @@
 
 @section('main')
     <section class="px-5 py-20 md:px-10">
-        <div class="max-w-7xl mx-10 xl:mx-auto space-y-12">
+        <div class="max-w-7xl mx-auto space-y-12">
             <x-section-title>
                 Publications scientifiques
             </x-section-title>
