@@ -8,7 +8,7 @@
                 height="80" loading="lazy" decoding="async">
         </div>
 
-        <div class="space-y-1 text-left">
+        <div class="space-y-1 text-center">
             <h3 class="text-gray-800 font-bold">{{ $name }}</h3>
             <!-- <h4 class="text-sm text-white font-light">{{ $jobTitle }}</h4> -->
         </div>
