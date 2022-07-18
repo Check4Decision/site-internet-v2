@@ -58,21 +58,6 @@
         </div>
     </section>
 
-    <!-- Partenaires -->
-    <section class="py-20 px-5 md:px-10">
-        <div class="max-w-7xl mx-auto space-y-24">
-            <x-section-title>Partenaires</x-section-title>
-
-            <div class="grid grid-cols-2 place-items-center gap-6 sm:grid-cols-4">
-                <x-partner src="/assets/images/ugb.jpg" alt="Logo Université Gaston Berger" title="Gaston Berger" />
-                <x-partner src="/assets/images/aims.jpg" alt="Logo AIMS Sénégal" title="AIMS Sénégal" />
-                <x-partner src="/assets/images/dsi_ut.jpg" alt="Logo DSI de l'Université de Thiès"
-                    title="DSI de l'Université de Thiès" />
-                <x-partner src="/assets/images/uasz.jpg" alt="Logo Université Assane Seck" title="Université Assane Seck" />
-            </div>
-        </div>
-    </section>
-
     <!-- Domaines d'activités -->
     <section class="px-5 py-20 md:px-10">
         <div class="mx-auto space-y-24 max-w-7xl">
@@ -97,6 +82,21 @@
                 <x-domain icon="beaker">
                     Data Science
                 </x-domain>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partenaires -->
+    <section class="py-20 px-5 md:px-10">
+        <div class="max-w-7xl mx-auto space-y-24">
+            <x-section-title>Partenaires</x-section-title>
+
+            <div class="grid grid-cols-2 place-items-center gap-6 sm:grid-cols-4">
+                <x-partner src="/assets/images/ugb.jpg" alt="Logo Université Gaston Berger" title="Gaston Berger" />
+                <x-partner src="/assets/images/aims.jpg" alt="Logo AIMS Sénégal" title="AIMS Sénégal" />
+                <x-partner src="/assets/images/dsi_ut.jpg" alt="Logo DSI de l'Université de Thiès"
+                    title="DSI de l'Université de Thiès" />
+                <x-partner src="/assets/images/uasz.jpg" alt="Logo Université Assane Seck" title="Université Assane Seck" />
             </div>
         </div>
     </section>
