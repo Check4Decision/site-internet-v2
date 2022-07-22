@@ -9,6 +9,7 @@
 <meta property="og:title" content="{{ $page->title }}">
 <meta property="og:description" content="Site web du projet Check4Decision">
 <meta property="og:url" content="https://check4decision.univ-thies.sn/">
+<meta property="og:locale" content="fr_FR">
 
 {{-- Twitter Card --}}
 <meta name="twitter:card" content="summary">
