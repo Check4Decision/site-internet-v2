@@ -3,12 +3,12 @@
 <meta name="description" content="{{ $page->description }}">
 
 {{-- Facebook Open Graph --}}
-<meta property="og:image" content="https://check4decision.univ-thies.sn/assets/images/og-image.jpg">
+<meta property="og:image" content="{{ $page->getUrl() }}assets/images/og-image.jpg">
 <meta property="og:image:height" content="150">
 <meta property="og:image:width" content="286">
 <meta property="og:title" content="{{ $page->title }}">
 <meta property="og:description" content="Site web du projet Check4Decision">
-<meta property="og:url" content="https://check4decision.univ-thies.sn/">
+<meta property="og:url" content="{{ $page->getUrl() }}">
 <meta property="og:locale" content="fr_FR">
 
 {{-- Twitter Card --}}
