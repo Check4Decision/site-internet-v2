@@ -3,7 +3,7 @@
 <meta name="description" content="{{ $page->description }}">
 
 {{-- Facebook Open Graph --}}
-<meta property="og:image" content="{{ $page->getUrl() }}/assets/images/og-image.jpg">
+<meta property="og:image" content="{{ $page->baseUrl }}/assets/images/og-image.jpg">
 <meta property="og:image:height" content="150">
 <meta property="og:image:width" content="286">
 <meta property="og:title" content="{{ $page->title }}">
@@ -15,7 +15,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="{{ $page->title }}">
 <meta name="twitter:description" content="{{ $page->shortDescription }}">
-<meta name="twitter:image" content="{{ $page->getUrl() }}/assets/images/og-image.jpg">
+<meta name="twitter:image" content="{{ $page->baseUrl }}/assets/images/og-image.jpg">
 <meta name="twitter:creator" content="@mm_sissokho">
 
 {{-- Favicons --}}
