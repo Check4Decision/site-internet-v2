@@ -3,7 +3,7 @@
 <meta name="description" content="{{ $page->description }}">
 
 {{-- Facebook Open Graph --}}
-<meta property="og:image" content="{{ $page->getUrl() }}assets/images/og-image.jpg">
+<meta property="og:image" content="{{ $page->getUrl() }}/assets/images/og-image.jpg">
 <meta property="og:image:height" content="150">
 <meta property="og:image:width" content="286">
 <meta property="og:title" content="{{ $page->title }}">
