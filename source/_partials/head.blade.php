@@ -7,13 +7,16 @@
 <meta property="og:image:height" content="150">
 <meta property="og:image:width" content="286">
 <meta property="og:title" content="{{ $page->title }}">
-<meta property="og:description" content="Site web du projet Check4Decision">
+<meta property="og:description" content="{{ $page->shortDescription }}">
 <meta property="og:url" content="{{ $page->getUrl() }}">
 <meta property="og:locale" content="fr_FR">
 
 {{-- Twitter Card --}}
 <meta name="twitter:card" content="summary">
-<meta name="twitter:creator" content="@mm_sissokho" />
+<meta name="twitter:title" content="{{ $page->title }}">
+<meta name="twitter:description" content="{{ $page->shortDescription }}">
+<meta name="twitter:image" content="{{ $page->getUrl() }}/assets/images/og-image.jpg">
+<meta name="twitter:creator" content="@mm_sissokho">
 
 {{-- Favicons --}}
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
