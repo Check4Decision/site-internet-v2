@@ -11,7 +11,7 @@
             </h1>
             <p
                 class="max-w-3xl text-gray-700 font-medium text-center mt-5 leading-loose tracking-wider sm:text-lg sm:mx-auto">
-                Projet de recherche financé par le CEA-MITIC, qui traite les questions relatives à l'automatisation de
+                Projet de recherche qui traite les questions relatives à l'automatisation de
                 la collecte et l'agrégation de données mais aussi de la vérification des faits (fact-checking) dans le
                 contexte web journalistique.
             </p>
