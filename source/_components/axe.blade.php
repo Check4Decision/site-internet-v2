@@ -7,7 +7,7 @@
 
     <div>
         <h3 class="text-gray-800 font-bold">
-            {{ $title }}}
+            {{ $title }}
         </h3>
         <p class="text-gray-600 font-medium mt-2 leading-loose">
             {{ $slot }}
