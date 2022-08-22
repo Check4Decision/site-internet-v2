@@ -6,10 +6,41 @@
 </head>
 
 <body
-    class="font-montserrat text-gray-800 bg-[url(/assets/images/dots.svg)] bg-repeat antialiased min-h-screen flex flex-col">
-    <header>
-        <x-navigation :page="$page" />
-    </header>
+    class="font-montserrat text-gray-800 antialiased min-h-screen flex flex-col bg-[url(/assets/images/dots.svg)] bg-repeat">
+    @section('header')
+        <header
+            class="relative isolate bg-[url('/assets/images/bg-hero.jpg')] bg-cover bg-center after:absolute after:inset-0 after:-z-10 after:bg-black/80">
+            <x-navigation :page="$page" :withBgImage="true" />
+
+            <!-- Hero -->
+            <div class="flex flex-col justify-center mx-auto px-5 py-24 md:px-10 md:py-36">
+                <div class="max-w-7xl mx-auto">
+                    <h1 class="text-[2.4rem] text-center text-sky-600 font-bold sm:text-6xl md:text-7xl">
+                        Check4Decision
+                    </h1>
+                    <p
+                        class="max-w-3xl text-gray-300/90 font-semibold text-center mt-5 leading-loose tracking-wider sm:text-lg sm:mx-auto">
+                        Projet de recherche qui traite les questions relatives à l'automatisation de
+                        la collecte et l'agrégation de données mais aussi de la vérification des faits (fact-checking) dans
+                        le
+                        contexte web journalistique.
+                    </p>
+
+                    <!-- Consortium -->
+                    <div class="w-64 grid grid-cols-2 place-items-center gap-6 mx-auto mt-16 sm:w-auto sm:grid-cols-4">
+                        <x-consortium src="/assets/images/ut.jpeg" alt="Logo Université Iba Der Thiam de Thiès"
+                            title=" Université Iba Der Thiam de Thiès" />
+                        <x-consortium src="/assets/images/utt.jpg" alt="Logo Université de Technologie de Troyes"
+                            title="Université de Technologie de Troyes" />
+                        <x-consortium class="w-28 h-28 bg-white border border-gray-200 rounded-md shadow-md"
+                            src="/assets/images/ceamitic.jpg" alt="Logo CEA-MITIC" title="CEA-MITIC" />
+                        <x-consortium src="/assets/images/ucao.jpg" alt="Logo Université Catholique de l'Afrique de l'Ouest"
+                            title="Université Catholique de l'Afrique de l'Ouest" />
+                    </div>
+                </div>
+            </div>
+        </header>
+    @show
     <main class="flex-1">
         @yield('main')
     </main>

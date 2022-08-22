@@ -2,6 +2,12 @@
 
 @section('title', 'Publications')
 
+@section('header')
+    <header>
+        <x-navigation :page="$page" />
+    </header>
+@endsection
+
 @section('main')
     <section class="px-5 py-20 md:px-10">
         <div class="max-w-7xl mx-auto space-y-12">

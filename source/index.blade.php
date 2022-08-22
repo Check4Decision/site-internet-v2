@@ -3,33 +3,6 @@
 @section('title', 'Accueil')
 
 @section('main')
-    <!-- Hero section -->
-    <section class="flex flex-col justify-center mx-auto px-5 py-24 md:px-10 md:py-36">
-        <div class="max-w-7xl mx-auto">
-            <h1 class="text-[2.4rem] text-center text-sky-600 font-bold sm:text-6xl md:text-7xl">
-                Check4Decision
-            </h1>
-            <p
-                class="max-w-3xl text-gray-700 font-medium text-center mt-5 leading-loose tracking-wider sm:text-lg sm:mx-auto">
-                Projet de recherche qui traite les questions relatives à l'automatisation de
-                la collecte et l'agrégation de données mais aussi de la vérification des faits (fact-checking) dans le
-                contexte web journalistique.
-            </p>
-
-            <!-- Consortium -->
-            <div class="w-64 grid grid-cols-2 place-items-center gap-6 mx-auto mt-16 sm:w-auto sm:grid-cols-4">
-                <x-consortium src="/assets/images/ut.jpeg" alt="Logo Université Iba Der Thiam de Thiès"
-                    title=" Université Iba Der Thiam de Thiès" />
-                <x-consortium src="/assets/images/utt.jpg" alt="Logo Université de Technologie de Troyes"
-                    title="Université de Technologie de Troyes" />
-                <x-consortium class="w-28 h-28 bg-white border border-gray-200 rounded-md shadow-md"
-                    src="/assets/images/ceamitic.jpg" alt="Logo CEA-MITIC" title="CEA-MITIC" />
-                <x-consortium src="/assets/images/ucao.jpg" alt="Logo Université Catholique de l'Afrique de l'Ouest"
-                    title="Université Catholique de l'Afrique de l'Ouest" />
-            </div>
-        </div>
-    </section>
-
     <!-- A propos -->
     <section class="bg-sky-600/80 font-medium px-5 py-20 md:px-10">
         <h2 class="sr-only">A propos</h2>
