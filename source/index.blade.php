@@ -4,10 +4,10 @@
 
 @section('main')
     <!-- A propos -->
-    <section class="bg-sky-600/80 font-medium px-5 py-20 md:px-10">
+    <section class="bg-sky-600/90 font-medium px-5 py-20 md:px-10">
         <h2 class="sr-only">A propos</h2>
 
-        <div class="mx-auto max-w-7xl space-y-5 text-white">
+        <div class="mx-auto max-w-7xl space-y-5 text-white font-semibold tracking-normal">
             <p>
                 Ce projet de recherche vise à analyser dans quelle mesure le fact-checking, en tant que genre journalistique
                 est
